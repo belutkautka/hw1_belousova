@@ -34,14 +34,11 @@ class SquareActivity : AppCompatActivity() {
 
     override fun onStop() {
         Log.d("SquareActivity", "onStop")
-
         super.onStop()
     }
 
     override fun onDestroy() {
-        Log.d("MainActivity", "onDestroySquare")
-
-        MainActivity.count++
+        Log.d("SquareActivity", "onDestroy")
         super.onDestroy()
     }
 }
